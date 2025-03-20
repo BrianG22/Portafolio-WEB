@@ -1,0 +1,11 @@
+<a href="https://www.flaticon.es/iconos-gratis/html-5" title="html 5 iconos">Html 5 iconos creados por Pixel perfect - Flaticon</a>
+
+<a href="https://www.flaticon.es/iconos-gratis/c" title="c iconos">C iconos creados por JunGSa - Flaticon</a>
+
+<a href="https://www.flaticon.es/iconos-gratis/ensenando" title="enseñando iconos">Enseñando iconos creados por Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.es/iconos-gratis/backend" title="backend iconos">Backend iconos creados por kerismaker - Flaticon</a>
+
+<a href="https://www.flaticon.es/iconos-gratis/desarrollo-front-end" title="desarrollo front-end iconos">Desarrollo front-end iconos creados por Rahat - Flaticon</a>
+
+<a href="https://www.flaticon.es/iconos-gratis/base-de-datos" title="base de datos iconos">Base de datos iconos creados por Freepik - Flaticon</a>

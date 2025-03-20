@@ -1,0 +1,22 @@
+/* ----- ----- ----- ----- HEADER ----- ----- ----- ----- */
+
+header {
+    background: lightblue;
+}
+
+
+/* ----- ----- ----- ----- MAIN ----- ----- ----- ----- */
+
+main {
+    background: lightblue;
+}
+
+/* ----- ----- ----- ----- FOOTER ----- ----- ----- ----- */
+
+footer {
+    background: lightblue;
+}
+
+.container {
+    background: lightgray;
+}

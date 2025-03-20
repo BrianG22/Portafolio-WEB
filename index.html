@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html lang="es-MX">
+<!-- head: Contiene metadatos y enlaces a archivos externos -->
+
+<head>
+  <!-- meta: Define información sobre el documento, como la codificación y la compatibilidad -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--Tipografias-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+
+  <!--Estilos-->
+  <!-- link: Se usa para enlazar archivos externos, como hojas de estilo CSS -->
+  <link rel="stylesheet" href="/css/normalize.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <!-- <link rel="stylesheet" href="/css/styles_temp.css" /> -->
+  <link rel="stylesheet" href="/icons/fontawesome-free-6.7.2-web/css/all.min.css" />
+
+  <!--Scripts-->
+  <!-- script: Permite incluir código JavaScript en la página -->
+  <script src="/js/modernizr-custom.js"></script>
+
+  <!-- title: Define el título de la página que aparece en la pestaña del navegador -->
+  <title>Mi portafolio</title>
+</head>
+
+<body>
+  <!-- header: Representa el encabezado de la página, que suele contener el logo y la navegación -->
+  <header class="open-sans-font">
+    <!-- La etiqueta <div> se usa para agrupar elementos y estructurar el contenido en bloques -->
+    <div class="container">
+      <!-- La etiqueta <nav> se usa para definir una sección de navegación -->
+      <nav class="menu">
+        <!-- La etiqueta <a> se usa para crear enlaces a otras páginas o secciones de la misma página -->
+        <a href="#">Inicio</a>
+        <a href="#">Acerca de</a>
+        <a href="#">Trabajos</a>
+        <a href="#">Habilidades</a>
+        <a href="#">Contacto</a>
+      </nav>
+      <div class="container-text">
+        <div class="text">
+          <!-- Las etiquetas <h1> a <h6> representan títulos con diferentes niveles de importancia -->
+          <!-- Nota sobre <h1>:Se recomienda usar solo una etiqueta <h1> por página, ya que representa el título principal del contenido. Usar más de una podría afectar la accesibilidad y el SEO -->
+          <!-- La etiqueta <h1> representa el título principal de la página. Solo se debe usar una vez por página para mantener la jerarquía del contenido -->
+          <h1 class="name">Brian Godoy</h1>
+          <h2 class="profession">Estudiante de Ingenieria en Software</h2>
+          <!-- La etiqueta <button> se usa para representar un botón interactivo -->
+          <button class="btn-cv">Descargar CV</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- main: Contiene el contenido principal de la página -->
+  <main class="open-sans-font">
+    <br>
+    <!-- section: Representa una sección o área de contenido -->
+    <section id="section-about">
+      <div class="container">
+        <div class="photo">
+          <!-- La etiqueta <img> se usa para mostrar imágenes en la página -->
+          <img src="/img/messi.jpg" width="200px" height="200px" alt="Brian Godoy" />
+        </div>
+        <div class="text">
+          <h3 class="title">Acerca de</h3>
+          <!-- La etiqueta <p> se usa para representar un párrafo de texto -->
+          <!-- La etiqueta <span> se usa para aplicar estilos a una parte específica del texto -->
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            eget felis nec justo aliquam tincidunt. Sed nec nunc nec nunc
+            ultricies ultricies. <span class="bold">HOLA MUNDO</span> Nullam eget felis nec justo aliquam
+            tincidunt. Sed nec nunc nec nunc ultricies ultricies. Nullam eget
+            felis nec justo aliquam tincidunt. Sed nec nunc nec nunc ultricies
+            ultricies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Diferencia entre ID y Class -->
+    <!-- El atributo "id" se usa para identificar un único elemento en la página, debe ser único en todo el documento. -->
+    <!-- El atributo "class" se usa para definir un conjunto de elementos con estilos o comportamientos similares. -->
+
+    <section id="section-jobs">
+      <div class="container">
+        <h3 class="title">Trabajos</h3>
+        <div class="container-jobs">
+          <div class="job">
+            <div class="img-job">
+              <img src="/img/trabajos/1.jpg" alt="Lorem ipsum" />
+            </div>
+            <div class="description">
+              <p class="name">Lorem ipsum</p>
+              <p class="category">HTML - CSS - JS</p>
+            </div>
+          </div>
+          <div class="job">
+            <div class="img-job">
+              <img src="/img/trabajos/2.jpg" alt="Lorem ipsum" />
+            </div>
+            <div class="description">
+              <p class="name">Lorem ipsum</p>
+              <p class="category">HTML - CSS - JS</p>
+            </div>
+          </div>
+          <div class="job">
+            <div class="img-job">
+              <img src="/img/trabajos/3.jpg" alt="Lorem ipsum" />
+            </div>
+            <div class="description">
+              <p class="name">Lorem ipsum</p>
+              <p class="category">HTML - CSS - JS</p>
+            </div>
+          </div>
+          <div class="job">
+            <div class="img-job">
+              <img src="/img/trabajos/4.jpg" alt="Lorem ipsum" />
+            </div>
+            <div class="description">
+              <p class="name">Lorem ipsum</p>
+              <p class="category">HTML - CSS - JS</p>
+            </div>
+          </div>
+          <div class="job">
+            <div class="img-job">
+              <img src="/img/trabajos/5.jpg" alt="Lorem ipsum" />
+            </div>
+            <div class="description">
+              <p class="name">Lorem ipsum</p>
+              <p class="category">HTML - CSS - JS</p>
+            </div>
+          </div>
+          <div class="job">
+            <div class="img-job">
+              <img src="/img/trabajos/6.jpg" alt="Lorem ipsum" />
+            </div>
+            <div class="description">
+              <p class="name">Lorem ipsum</p>
+              <p class="category">HTML - CSS - JS</p>
+            </div>
+          </div>
+          <div class="job">
+            <div class="img-job">
+              <img src="/img/trabajos/7.jpg" alt="Lorem ipsum" />
+            </div>
+            <div class="description">
+              <p class="name">Lorem ipsum</p>
+              <p class="category">HTML - CSS - JS</p>
+            </div>
+          </div>
+          <div class="job">
+            <div class="img-job">
+              <img src="/img/trabajos/8.jpg" alt="Lorem ipsum" />
+            </div>
+            <div class="description">
+              <p class="name">Lorem ipsum</p>
+              <p class="category">HTML - CSS - JS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-skills">
+      <div class="container">
+        <h3 class="title">Habilidades</h3>
+        <div class="container-skills">
+          <div class="skill">
+            <div class="icon-skill">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="description">
+              <p class="name">HTML5</p>
+              <p class="category">Experto</p>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="icon-skill">
+              <i class="fa-brands fa-python"></i>
+            </div>
+            <div class="description">
+              <p class="name">Python</p>
+              <p class="category">Experto</p>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="icon-skill">
+              <i class="fa-brands fa-java"></i>
+            </div>
+            <div class="description">
+              <p class="name">JAVA</p>
+              <p class="category">Experto</p>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="icon-skill">
+              <i class="fa-brands fa-css3"></i>
+            </div>
+            <div class="description">
+              <p class="name">CSS3</p>
+              <p class="category">Experto</p>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="icon-skill">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <div class="description">
+              <p class="name">JavaScript</p>
+              <p class="category">Experto</p>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="icon-skill">
+              <i class="fa-brands fa-php"></i>
+            </div>
+            <div class="description">
+              <p class="name">PHP</p>
+              <p class="category">Experto</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer: Representa el pie de página con información adicional o enlaces -->
+  <footer class="open-sans-font">
+    <div class="container">
+      <section id="section-contact">
+        <h3 class="title">Contacto</h3>
+        <!-- La etiqueta <form> se usa para crear formularios interactivos -->
+        <form class="form-message" action="">
+          <!-- La etiqueta <input> se usa para crear campos de entrada de texto, como cajas de texto, botones y casillas de verificación -->
+          <input type="text" name="nombre" placeholder="Nombre" required />
+          <input type="email" name="email" placeholder="Correo electrónico" required />
+          <!-- La etiqueta <textarea> se usa para crear áreas de texto multilínea -->
+          <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+          <input class="btn-send-msg" type="submit" value="Enviar">
+          <!-- La etiqueta <type> define el tipo de entrada -->
+          <!-- La etiqueta <name> asigna un nombre al campo para identificarlo en el backend -->
+          <!-- La etiqueta <placeholder> muestra un texto de ayuda en el campo -->
+          <!-- La etiqueta <required> indica que el campo es obligatorio-->
+          <!-- La etiqueta <value> define el valor del botón -->
+        </form>
+      </section>
+    </div>
+
+    <section id="section-social-media">
+      <div class="container">
+        <a class="github" href="https://github.com/BrianG22"><i class="fa-brands fa-github"></i></a>
+        <a class="instagram" href="https://www.instagram.com/bfgv22/"><i class="fa-brands fa-instagram"></i></a>
+        <a class="tiktok" href="https://www.tiktok.com/@bfgv22?lang=es"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </section>
+  </footer>
+
+  <!-- Barra flotante de redes sociales -->
+  <div class="container-bar">
+    <input type="checkbox" id="btn-social" />
+    <label for="btn-social" class="fa fa-play"></label>
+    <div class="icon-social">
+      <a href="https://www.facebook.com/bfgv22" class="fa-brands fa-facebook">
+        <span id="title">Facebook</span>
+      </a>
+      <a href="https://www.youtube.com/@bfgv22" class="fa-brands fa-youtube">
+        <span id="title">Youtube</span>
+      </a>
+      <a href="https://x.com/bfgv22" class="fa-brands fa-twitter">
+        <span id="title">Twitter</span>
+      </a>
+      <a href="https://github.com/BrianG22" class="fa-brands fa-github">
+        <span id="title">Github</span>
+      </a>
+      <a href="https://mx.pinterest.com/bfgv22/_profile/" class="fa-brands fa-pinterest">
+        <span id="title">Pinterest</span>
+      </a>
+    </div>
+  </div>
+
+</body>
+
+</html>
